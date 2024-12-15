@@ -1,3 +1,13 @@
+Metadata-Version: 2.1
+Name: pioreactor_read_serial
+Version: 0.1.0
+Summary: This plugin reads from a specified serial and writes the json key:value pairs to MQTT for access by other jobs.
+Home-page: https://github.com/noahsprent
+Author: Noah Sprent
+Author-email: noahsprent@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
 ## Pioreactor Read Serial Plugin 
 
 This plugin takes a json coming in on serial and writes the individual key:value pairs out to MQTT so they can be accessed by different jobs. 
